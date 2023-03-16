@@ -71,7 +71,7 @@ function multiply(a, b){
   - [Web Development Fundamentals](https://www.sololearn.com/certificates/CT-WPANOB6M)
 - FreeCodeCamp
   - [Responsive Web Design](https://www.freecodecamp.org/certification/Rac3r/responsive-web-design)
-- Stepic (in progress)
+- Stepik (in progress)
 - Mimo (in progress)
 
 ## Languages:
