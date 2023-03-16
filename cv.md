@@ -6,7 +6,7 @@
 
 **Phone:** +7 915 6448445
 
-**E-Mail:** [ntoon@ya.ru](ntoon@ya.ru "My actual E-mail address")
+**E-Mail:** <ntoon@ya.ru>
 
 **Telegram:** [@Gaikoku_jin](https://t.me/Gaikoku_jin "My Telegram")
 
