@@ -77,16 +77,8 @@ function multiply(a, b){
 ## Languages:
 
 - English - B1 ~ C2
-  - Speaking - B1 Intermedate
-  - Reding and Understanding - C2 Proficient ([EF SET Certificate](https://www.efset.org/cert/JuV9Jz))
+  - Speaking - B1 Intermediate
+  - Reading and Understanding - C2 Proficient ([EF SET Certificate](https://www.efset.org/cert/JuV9Jz))
 - Russian - Native
 - Japanese - N5 (A1)
 - French - A1 basic
-
-<!--* TO-DO
-
-- check education
-- add normal code example from CodeWars
-- add cert links
-- mb add experience job in startup in london
- -->
