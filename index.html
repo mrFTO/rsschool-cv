@@ -4,216 +4,302 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/img/favicon.ico">
     <title>My CV</title>
   </head>
   <body>
     <header class="header">
-      <nav class="menu">
-        <ul class="menu-list">
-          <li class="menu-list__item"><a href="">Contacts</a></li>
-          <li class="menu-list__item"><a href="">About me</a></li>
-          <li class="menu-list__item"><a href="">Skills</a></li>
-          <li class="menu-list__item"><a href="">Projects</a></li>
-          <li class="menu-list__item"><a href="">Education</a></li>
-          <li class="menu-list__item"><a href="">Courses</a></li>
-          <li class="menu-list__item"><a href="">Languages</a></li>
-        </ul>
-      </nav>
-
-      <h1 class="name">Anton Polovtsev</h1>
-      <h2 class="profession">Front-End Web-Developer</h2>
-      <img class="my-image" src="img/profile.jpg" alt="me" />
+      <div class="container top-container">
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-list__item"><a href="#contacts">Contacts</a></li>
+            <li class="menu-list__item"><a href="#about">About me</a></li>
+            <li class="menu-list__item"><a href="#skills">Skills</a></li>
+            <li class="menu-list__item"><a href="#projects">Projects</a></li>
+            <li class="menu-list__item"><a href="#education">Education</a></li>
+            <li class="menu-list__item"><a href="#courses">Courses</a></li>
+            <li class="menu-list__item"><a href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <h2>My Contacts:</h2>
-        <ul>
-          <li>
-            <b>Phone: </b>
-            <a href="tel:+79156448445">+7&nbsp;915&nbsp;6448445</a>
-          </li>
-          <li>
-            <b>E-Mail: </b>
-            <a href="mailto:ntoon@ya.ru">ntoon@ya.ru</a>
-          </li>
-          <li>
-            <b>Telegram: </b>
-            <a href="http://https://t.me/Gaikoku_jin">@Gaikoku_jin</a>
-          </li>
-          <li>
-            <b>Discord: </b>
-            <a href="https://discordapp.com/users/atr3ides">atr3ides</a>
-          </li>
-          <li>
-            <b>GitHub: </b>
-            <a href="https://github.com/mrFTO">mrFTO</a>
-          </li>
-          <li>
-            <b>LInkedIn: </b>
-            <a href="https://www.linkedin.com/in/anton-polovtsev-a82a38217">
-              Anton Polovtsev
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>About Me:</h2>
-        <p>
-          I started my career as a jurisconsult after graduating from the
-          Faculty of Civil Law of the Smolensk Humanitarian University. This
-          profession gave me good soft skills as the ability to quickly navigate
-          large amounts of information, perseverance, good communication skills,
-          the ability to "think outside the box" and quickly adapt to changing
-          conditions and situations. In addition, an analytical mindset,
-          determination, risk management and the ability to make quick but
-          thoughtful decisions helps me to achieve my goals.
-        </p>
-        <p>
-          I enjoy learning and discovering new things. Work in the field of
-          computer technology has become a new stage in my development and
-          movement towards the desired life priorities.
-        </p>
-        <p>
-          To start in this direction, I chose the profession of Front-End
-          Web-Developer.
-        </p>
-        <p>
-          I like to create something new and see the result of my actions
-          already in the process of work. I am good at teamwork and can work on
-          my own. I also have the skills of time management, goal setting and a
-          retrospective analysis of my actions, with the aim of constantly
-          growing and moving forward.
-        </p>
-      </section>
+      <div class="container content-container">
+        <section class="my-profile">
+          <img
+            class="my-profile__img"
+            src="./assets/img/profile.jpg"
+            alt="profile image"
+          />
+          <div class="my-profile__data">
+            <h1 class="name">Anton Polovtsev</h1>
+            <h2 class="profession">Front-End Web-Developer</h2>
+          </div>
+        </section>
+        <section class="my-contacts" id="contacts">
+          <h2 class="heading-text">My Contacts:</h2>
+          <ul class="contacts-list">
+            <li class="contacts-list__item phone">
+              <i class="fa-solid fa-phone"></i>
+              <b>Phone:</b>
+              <a href="tel:+79156448445">+7&nbsp;915&nbsp;6448445</a>
+            </li>
+            <li class="contacts-list__item email">
+              <i class="fa-solid fa-envelope"></i>
+              <b>E-Mail:</b>
+              <a href="mailto:ntoon@ya.ru">ntoon@ya.ru</a>
+            </li>
+            <li class="contacts-list__item telegram">
+              <i class="fa-brands fa-telegram"></i>
+              <b>Telegram:</b>
+              <a href="http://https://t.me/Gaikoku_jin">@Gaikoku_jin</a>
+            </li>
+            <li class="contacts-list__item discord">
+              <i class="fa-brands fa-discord"></i>
+              <b>Discord:</b>
+              <a href="https://discordapp.com/users/atr3ides">atr3ides</a>
+            </li>
+            <li class="contacts-list__item github">
+              <i class="fa-brands fa-github"></i>
+              <b>GitHub:</b>
+              <a href="https://github.com/mrFTO">mrFTO</a>
+            </li>
+            <li class="contacts-list__item linkedin">
+              <i class="fa-brands fa-linkedin"></i>
+              <b>LInkedIn:</b>
+              <a href="https://www.linkedin.com/in/anton-polovtsev-a82a38217">
+                Anton Polovtsev
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="about-me" id="about">
+          <h2 class="heading-text">About Me:</h2>
+          <p>
+            I started my career as a jurisconsult after graduating from the
+            Faculty of Civil Law of the Smolensk Humanitarian University. This
+            profession gave me good soft skills as the ability to quickly
+            navigate large amounts of information, perseverance, good
+            communication skills, the ability to "think outside the box" and
+            quickly adapt to changing conditions and situations. In addition, an
+            analytical mindset, determination, risk management and the ability
+            to make quick but thoughtful decisions helps me to achieve my goals.
+          </p>
+          <p>
+            I enjoy learning and discovering new things. Work in the field of
+            computer technology has become a new stage in my development and
+            movement towards the desired life priorities.
+          </p>
+          <p>
+            To start in this direction, I chose the profession of Front-End
+            Web-Developer.
+          </p>
+          <p>
+            I like to create something new and see the result of my actions
+            already in the process of work. I am good at teamwork and can work
+            on my own. I also have the skills of time management, goal setting
+            and a retrospective analysis of my actions, with the aim of
+            constantly growing and moving forward.
+          </p>
+        </section>
 
-      <section>
-        <h2>Hard Skills:</h2>
-        <ul>
-          <li>HTML/CSS</li>
-          <li>JavaScript</li>
-          <li>BootStrap</li>
-          <li>Bubble</li>
-          <li>Git (GitHub, GitBash, GitHub Desktop)</li>
-          <li>Figma</li>
-          <li>Linux (Ubuntu-Desktop, Ubuntu-Server)</li>
-          <li>Data Bases (basic)</li>
-          <li>C# (basic)</li>
-          <li>Python (basic)</li>
-          <li>Java (basic)</li>
-          <li>MS Office, Libre Office, Open Office</li>
-          <li>VS Code, PyCharm</li>
-          <li>Notion, Miro, Clockify</li>
-        </ul>
+        <section class="my-skills" id="skills">
+          <h2 class="heading-text">Hard Skills:</h2>
+          <ul class="my-skills__list">
+            <li><i class="fa-brands fa-html5"></i>HTML</li>
+            <li><i class="fa-brands fa-css3-alt"></i>CSS</li>
+            <li><i class="fa-brands fa-js"></i>JavaScript</li>
+            <li><i class="fa-brands fa-bootstrap"></i>BootStrap</li>
+            <li>
+              <img
+                class="bubble"
+                src="./assets/img/bubble.png"
+                alt="bubble-icon"
+              />
+              Bubble
+            </li>
+            <li>
+              <i class="fa-brands fa-git"></i>Git (GitHub, GitBash, GitHub
+              Desktop)
+            </li>
+            <li><i class="fa-brands fa-figma"></i>Figma</li>
+            <li>
+              <i class="fa-brands fa-linux"></i>Linux (Ubuntu-Desktop,
+              Ubuntu-Server)
+            </li>
+            <li><i class="fa-solid fa-database"></i>Data Bases (basic)</li>
+            <li><i class="fa-solid fa-code"></i>C# (basic)</li>
+            <li><i class="fa-brands fa-python"></i>Python (basic)</li>
+            <li><i class="fa-brands fa-java"></i>Java (basic)</li>
+            <li>
+              <i class="fa-solid fa-file-word"></i>MS Office, Libre Office, Open
+              Office
+            </li>
+            <li><i class="fa-solid fa-laptop-code"></i>VS Code, PyCharm</li>
+            <li><i class="fa-solid fa-clock"></i>Notion, Miro, Clockify</li>
+          </ul>
 
-        <h2>Code Example:</h2>
-        <code>function multiply(a, b){ c = a * b; return c; }</code>
-      </section>
-      <section>
-        <h2>Projects:</h2>
-        <ul>
-          <li>
-            <a href="https://mrfto.github.io/GB_project_1_e-shop/"
-              >E-Shop (GeekBrains)</a
-            >
-          </li>
-          <li>
-            <a href="https://mrfto.github.io/cssBayan/"
-              >CSS Bayan (RS School)</a
-            >
-          </li>
-          <li>
-            <a href="(https://mrfto.github.io/Lambo-site-project/"
-              >Lamborghini Super Trofeo (from 0 to 1)</a
-            >
-          </li>
-        </ul>
-      </section>
+          <h2 class="heading-text">Code Example:</h2>
+          <code class="code"
+            >function multiply(a, b){ c = a * b; return c; }</code
+          >
+        </section>
+        <section class="my-projects" id="projects">
+          <h2 class="heading-text">Projects:</h2>
+          <ul>
+            <li>
+              <i class="fa-brands fa-chrome"></i>
+              <a href="https://mrfto.github.io/GB_project_1_e-shop/"
+                >E-Shop (GeekBrains)</a
+              >
+            </li>
+            <li>
+              <i class="fa-brands fa-chrome"></i>
+              <a href="https://mrfto.github.io/cssBayan/"
+                >CSS Bayan (RS School)</a
+              >
+            </li>
+            <li>
+              <i class="fa-brands fa-chrome"></i>
+              <a href="https://mrfto.github.io/Lambo-site-project/"
+                >Lamborghini Super Trofeo (from 0 to 1)</a
+              >
+            </li>
+          </ul>
+        </section>
 
-      <section>
-        <h2>Education:</h2>
-        <ul>
-          <li>
-            Smolensk Humanitarian University
-            <ul>
-              <li>Faculty of Civil Law</li>
-            </ul>
-          </li>
-        </ul>
+        <section class="my-education" id="education">
+          <h2 class="heading-text">Education:</h2>
+          <ul>
+            <li>
+              <i class="fa-sharp fa-solid fa-building-columns"></i>
+              Smolensk Humanitarian University
+              <ul>
+                <li>
+                  <i class="fa-solid fa-scale-balanced"></i> Faculty of Civil
+                  Law
+                </li>
+              </ul>
+            </li>
+          </ul>
 
-        <h2>Courses</h2>
-        <ul>
-          <li>
-            GeekBrains
-            <ul>
-              <li>Front-End Web Developer (in progress)</li>
-              <li>Software Developer (in progress)</li>
-            </ul>
-          </li>
-          <li>
-            Udacity
-            <ul>
-              <li>
-                <a
-                  href="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/7078db17-8849-4b1f-97b0-e0f0529ac115.pdf"
-                ></a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            SoloLearn
-            <ul>
-              <li>
-                <a href="https://www.sololearn.com/certificates/CT-BJPYHWON"
-                  >HTML</a
-                >
-              </li>
-              <li>
-                <a href="https://www.sololearn.com/certificates/CT-WPANOB6M"
-                  >Web Development Fundamentals</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            FreeCodeCamp
-            <ul>
-              <li>
-                <a
-                  href="https://www.freecodecamp.org/certification/Rac3r/responsive-web-design"
-                  >Responsive Web Design</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>Stepik (in progress)</li>
-          <li>Mimo (in progress)</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Languages:</h2>
-        <ul>
-          <li>
-            English
-            <ul>
-              <li>B1 ~ C2 Speaking - B1 Intermediate</li>
-              <li>
-                Reading and Understanding - C2 Proficient (<a
-                  href="https://www.efset.org/cert/JuV9Jz"
-                  >EF SET Certificate</a
-                >)
-              </li>
-            </ul>
-          </li>
-          <li>Russian - Native</li>
-          <li>Japanese - N5 (A1)</li>
-          <li>French - A1 basic</li>
-        </ul>
-      </section>
+          <h2 class="heading-text" id="courses">Courses</h2>
+          <ul class="courses-list">
+            <li>
+              <span class="course-provider">GeekBrains</span>
+              <ul>
+                <li class="course-name">
+                  <i class="fa-solid fa-person-chalkboard"></i> Front-End Web
+                  Developer (in progress)
+                </li>
+                <li class="course-name">
+                  <i class="fa-solid fa-person-chalkboard"></i> Software
+                  Developer (in progress)
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="course-provider">Udacity</span>
+
+              <ul>
+                <li>
+                  <i class="fa-solid fa-person-chalkboard"></i>
+                  <a
+                    href="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/7078db17-8849-4b1f-97b0-e0f0529ac115.pdf"
+                    >Front-End Development Track</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="course-provider">SoloLearn</span>
+
+              <ul>
+                <li class="course-name">
+                  <i class="fa-solid fa-person-chalkboard"></i>
+                  <a href="https://www.sololearn.com/certificates/CT-BJPYHWON"
+                    >HTML</a
+                  >
+                </li>
+                <li class="course-name">
+                  <i class="fa-solid fa-person-chalkboard"></i>
+                  <a href="https://www.sololearn.com/certificates/CT-WPANOB6M"
+                    >Web Development Fundamentals</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="course-provider">FreeCodeCamp</span>
+
+              <ul>
+                <li class="course-name">
+                  <i class="fa-solid fa-person-chalkboard"></i>
+                  <a
+                    href="https://www.freecodecamp.org/certification/Rac3r/responsive-web-design"
+                    >Responsive Web Design</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="course-provider">Stepik (in progress)</li>
+            <li class="course-provider">Mimo (in progress)</li>
+          </ul>
+        </section>
+        <section class="my-languages" id="languages">
+          <h2 class="heading-text">Languages:</h2>
+          <ul>
+            <li>
+              <i class="fa-solid fa-language"></i>
+              <b>English</b>
+              <ul>
+                <li class="lang-tab">
+                  <i class="fa-solid fa-globe"></i>B1 ~ C2 Speaking - B1
+                  Intermediate
+                </li>
+                <li class="lang-tab">
+                  <i class="fa-solid fa-globe"></i> Reading and Understanding -
+                  C2 Proficient (<a href="https://www.efset.org/cert/JuV9Jz"
+                    >EF SET Certificate</a
+                  >)
+                </li>
+              </ul>
+            </li>
+            <li><i class="fa-solid fa-language"></i><b>Russian</b> - Native</li>
+            <li>
+              <i class="fa-solid fa-language"></i><b>Japanese</b> - N5 (A1)
+            </li>
+            <li>
+              <i class="fa-solid fa-language"></i><b>French</b> - A1 basic
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
-    <footer>
-      <p>&copy; 2023</p>
-      <a href="github.com">mrFTO</a>
-      <a class="rss-logo" href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" /></a>
+    <footer class="footer">
+      <div class="container bottom-container">
+        <div class="footer-content">
+          <a href="https://github.com/mrFTO"><b>&copy; 2023 mrFTO</b></a>
+          <a href="https://rs.school/js/"
+            ><img
+              class="rss-logo"
+              src="https://rs.school/images/rs_school_js.svg"
+              alt="rsschool logo"
+          /></a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

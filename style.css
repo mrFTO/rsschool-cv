@@ -1,6 +1,147 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+section {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.header,
+.footer {
+  background-color: yellow;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.name {
+  font-size: 32px;
+  font-style: italic;
+  border-bottom: 1px solid black;
+  padding-bottom: 40px;
+}
+
+.heading-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-profile__data {
+  text-align: center;
+}
+
+.profession {
+  margin-top: 50px;
+}
+
+.my-profile__img {
+  width: 20%;
+  border-radius: 50px;
+}
+
+.menu-list__item a {
+  text-decoration: none;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+}
+.my-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts-list {
+  line-height: 35px;
+  font-size: 18px;
+}
+
+.fa-brands,
+.fa-solid {
+  margin-right: 15px;
+}
+
+.about-me {
+  font-size: 18px;
+  line-height: 25px;
+}
+.about-me p {
+  margin-bottom: 10px;
+}
+
+.bubble {
+  width: 18px;
+  height: 18px;
+  margin-right: 15px;
+}
+
+.my-skills__list {
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.code {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.my-projects {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+.my-education {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.course-provider {
+  font-size: 18px;
+  font-weight: bold;
+}
+.my-languages {
+  font-size: 18px;
+  line-height: 35px;
+}
+.lang-tab {
+  padding-left: 25px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rss-logo {
+  width: 121px;
+  height: 45px;
+}
